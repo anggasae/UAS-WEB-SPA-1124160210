@@ -78,7 +78,7 @@
             <div>
               <label
                 for="customerName"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Nama Pelanggan
               </label>
@@ -96,7 +96,7 @@
             <div>
               <label
                 for="customerNumber"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Nomor Hp
               </label>
@@ -114,7 +114,7 @@
             <div>
               <label
                 for="customerAddres"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Alamat
               </label>
@@ -132,7 +132,7 @@
             <div>
               <label
                 for="customerEmail"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Email
               </label>
@@ -150,7 +150,7 @@
             <div>
               <label
                 for="productSelect"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Pilih Menu
               </label>
@@ -189,7 +189,7 @@
             <div>
               <label
                 for="quantity"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Hari peminjaman
               </label>
@@ -206,7 +206,9 @@
 
             <!-- Metode Pembayaran -->
             <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
+              >
                 Metode Pembayaran
               </label>
               <div class="space-y-2">
@@ -217,7 +219,10 @@
                     value="transfer"
                     class="text-blue-600 focus:ring-blue-500"
                   />
-                  <span class="ml-2 text-sm text-gray-700">Transfer Bank</span>
+                  <span
+                    class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
+                    >Transfer Bank</span
+                  >
                 </label>
                 <label class="flex items-center">
                   <input
@@ -226,7 +231,8 @@
                     value="ewallet"
                     class="text-blue-600 focus:ring-blue-500"
                   />
-                  <span class="ml-2 text-sm text-gray-700"
+                  <span
+                    class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
                     >E-Wallet (OVO, GoPay, Dana)</span
                   >
                 </label>
@@ -237,7 +243,10 @@
                     value="credit"
                     class="text-blue-600 focus:ring-blue-500"
                   />
-                  <span class="ml-2 text-sm text-gray-700">Kartu Kredit</span>
+                  <span
+                    class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
+                    >Kartu Kredit</span
+                  >
                 </label>
                 <label class="flex items-center">
                   <input
@@ -246,7 +255,10 @@
                     value="cash"
                     class="text-blue-600 focus:ring-blue-500"
                   />
-                  <span class="ml-2 text-sm text-gray-700">Bayar Tunai</span>
+                  <span
+                    class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
+                    >Bayar Tunai</span
+                  >
                 </label>
               </div>
             </div>
@@ -255,7 +267,7 @@
             <div>
               <label
                 for="promoCode"
-                class="block text-sm font-medium text-gray-700 mb-2"
+                class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 transition-colors duration-300"
               >
                 Kode Promo (Opsional)
               </label>
@@ -312,7 +324,9 @@
         </div>
 
         <!-- Riwayat Transaksi -->
-        <div class="bg-white rounded-xl shadow-lg p-6">
+        <div
+          class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transition-colors duration-300"
+        >
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center">
               <svg
@@ -328,7 +342,9 @@
                   d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 ></path>
               </svg>
-              <h2 class="text-xl font-semibold text-gray-800">
+              <h2
+                class="text-xl font-semibold text-gray-800 dark:text-gray-100 transition-colors duration-300"
+              >
                 Riwayat Transaksi
               </h2>
             </div>
